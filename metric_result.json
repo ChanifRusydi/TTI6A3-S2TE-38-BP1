@@ -1,29 +1,301 @@
 {
   "A1": {
-    "75_25": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.475,
+        "sensitivity": 0.49,
+        "specificity": 0.51,
+        "f1_score": 0.391
+      },
       "KNN": {
+        "accuracy": 0.775,
+        "sensitivity": 0.974,
+        "specificity": 0.026,
+        "f1_score": 0.674
+      }
+    },
+    "75_25": {
+      "SVM": {
         "accuracy": 0.46,
         "sensitivity": 0.46,
         "specificity": 0.54,
-        "f1_score": 0.496
-      }
-    },
-    "10-Fold": {
-      "SVM": {
-        "accuracy": 0.47,
-        "sensitivity": 0.47,
-        "specificity": 0.55,
-        "f1_score": 0.5
+        "f1_score": 0.629
+      },
+      "KNN": {
+        "accuracy": 0.74,
+        "sensitivity": 0.778,
+        "specificity": 0.222,
+        "f1_score": 0.683
       }
     }
   },
   "A2": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.505,
+        "sensitivity": 0.51,
+        "specificity": 0.49,
+        "f1_score": 0.403
+      },
+      "KNN": {
+        "accuracy": 0.835,
+        "sensitivity": 0.984,
+        "specificity": 0.016,
+        "f1_score": 0.786
+      }
+    },
     "75_25": {
       "SVM": {
-        "accuracy": 0.47,
+        "accuracy": 0.46,
+        "sensitivity": 0.46,
+        "specificity": 0.54,
+        "f1_score": 0.629
+      },
+      "KNN": {
+        "accuracy": 0.76,
+        "sensitivity": 0.923,
+        "specificity": 0.077,
+        "f1_score": 0.667
+      }
+    }
+  },
+  "A3": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.667,
+        "sensitivity": 0.5,
+        "specificity": 0.5,
+        "f1_score": 0.022
+      },
+      "KNN": {
+        "accuracy": 0.837,
+        "sensitivity": 0.975,
+        "specificity": 0.024,
+        "f1_score": 0.647
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.6666666666666666,
+        "sensitivity": 0.5,
+        "specificity": 0.5,
+        "f1_score": 0.008
+      },
+      "KNN": {
+        "accuracy": 0.7466666666666667,
+        "sensitivity": 0.714,
+        "specificity": 0.286,
+        "f1_score": 0.513
+      }
+    }
+  },
+  "B1": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.51,
+        "sensitivity": 0.514,
+        "specificity": 0.486,
+        "f1_score": 0.411
+      },
+      "KNN": {
+        "accuracy": 0.89,
+        "sensitivity": 0.986,
+        "specificity": 0.014,
+        "f1_score": 0.858
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.46,
+        "sensitivity": 0.46,
+        "specificity": 0.54,
+        "f1_score": 0.629
+      },
+      "KNN": {
+        "accuracy": 0.8,
+        "sensitivity": 0.842,
+        "specificity": 0.158,
+        "f1_score": 0.762
+      }
+    }
+  },
+  "B2": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.51,
+        "sensitivity": 0.514,
+        "specificity": 0.486,
+        "f1_score": 0.411
+      },
+      "KNN": {
+        "accuracy": 0.89,
+        "sensitivity": 0.986,
+        "specificity": 0.014,
+        "f1_score": 0.858
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.46,
+        "sensitivity": 0.46,
+        "specificity": 0.54,
+        "f1_score": 0.629
+      },
+      "KNN": {
+        "accuracy": 0.78,
+        "sensitivity": 0.8,
+        "specificity": 0.2,
+        "f1_score": 0.744
+      }
+    }
+  },
+  "B3": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.545,
+        "sensitivity": 0.544,
+        "specificity": 0.456,
+        "f1_score": 0.433
+      },
+      "KNN": {
+        "accuracy": 0.905,
+        "sensitivity": 0.987,
+        "specificity": 0.013,
+        "f1_score": 0.884
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.46,
+        "sensitivity": 0.46,
+        "specificity": 0.54,
+        "f1_score": 0.629
+      },
+      "KNN": {
+        "accuracy": 0.78,
+        "sensitivity": 0.833,
+        "specificity": 0.167,
+        "f1_score": 0.732
+      }
+    }
+  },
+  "B4": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.545,
+        "sensitivity": 0.541,
+        "specificity": 0.459,
+        "f1_score": 0.434
+      },
+      "KNN": {
+        "accuracy": 0.92,
+        "sensitivity": 0.988,
+        "specificity": 0.012,
+        "f1_score": 0.901
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.46,
+        "sensitivity": 0.46,
+        "specificity": 0.54,
+        "f1_score": 0.629
+      },
+      "KNN": {
+        "accuracy": 0.82,
+        "sensitivity": 0.85,
+        "specificity": 0.15,
+        "f1_score": 0.791
+      }
+    }
+  },
+  "B5": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.51,
+        "sensitivity": 0.514,
+        "specificity": 0.486,
+        "f1_score": 0.411
+      },
+      "KNN": {
+        "accuracy": 0.89,
+        "sensitivity": 0.986,
+        "specificity": 0.014,
+        "f1_score": 0.858
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.6666666666666666,
+        "sensitivity": 0.5,
+        "specificity": 0.5,
+        "f1_score": 0.008
+      },
+      "KNN": {
+        "accuracy": 0.8133333333333334,
+        "sensitivity": 0.789,
+        "specificity": 0.211,
+        "f1_score": 0.682
+      }
+    }
+  },
+  "B6": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.667,
+        "sensitivity": 0.5,
+        "specificity": 0.5,
+        "f1_score": 0.022
+      },
+      "KNN": {
+        "accuracy": 0.903,
+        "sensitivity": 0.933,
+        "specificity": 0.067,
+        "f1_score": 0.718
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.6666666666666666,
+        "sensitivity": 0.5,
+        "specificity": 0.5,
+        "f1_score": 0.008
+      },
+      "KNN": {
+        "accuracy": 0.8533333333333334,
+        "sensitivity": 0.818,
+        "specificity": 0.182,
+        "f1_score": 0.766
+      }
+    }
+  },
+  "B7": {
+    "10_fold": {
+      "SVM": {
+        "accuracy": 0.44,
         "sensitivity": 0.47,
-        "specificity": 0.55,
-        "f1_score": 0.5
+        "specificity": 0.53,
+        "f1_score": 0.375
+      },
+      "KNN": {
+        "accuracy": 0.917,
+        "sensitivity": 0.994,
+        "specificity": 0.006,
+        "f1_score": 0.904
+      }
+    },
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.48,
+        "sensitivity": 0.48,
+        "specificity": 0.52,
+        "f1_score": 0.648
+      },
+      "KNN": {
+        "accuracy": 0.81,
+        "sensitivity": 0.854,
+        "specificity": 0.146,
+        "f1_score": 0.787
       }
     }
   }
