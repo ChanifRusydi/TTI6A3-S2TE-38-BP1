@@ -1,0 +1,30 @@
+{
+  "A1": {
+    "75_25": {
+      "KNN": {
+        "accuracy": 0.46,
+        "sensitivity": 0.46,
+        "specificity": 0.54,
+        "f1_score": 0.496
+      }
+    },
+    "10-Fold": {
+      "SVM": {
+        "accuracy": 0.47,
+        "sensitivity": 0.47,
+        "specificity": 0.55,
+        "f1_score": 0.5
+      }
+    }
+  },
+  "A2": {
+    "75_25": {
+      "SVM": {
+        "accuracy": 0.47,
+        "sensitivity": 0.47,
+        "specificity": 0.55,
+        "f1_score": 0.5
+      }
+    }
+  }
+}
